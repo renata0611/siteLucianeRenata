@@ -1,0 +1,67 @@
+#formulario{
+    max-width: 400px;
+    margin: 0 auto ;
+    background-color: rgb(255, 255, 255) ;
+    padding-right: 45px;
+    padding-left:20px;
+    padding: 10px;
+    border-radius: 8px;
+    border: 2px solid rgb(0, 0, 0);
+    
+}
+
+
+
+
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+input[type="date"],
+textarea,
+select{
+    
+    display: flex;
+    margin: 6px 0;
+    padding: 10px;
+    border: 1px solid #58524ec7;
+    border-radius: 20px;
+    box-sizing: border-box;
+
+  
+}
+input[type="submit"]{
+    background-color: rgb(59, 177, 255);
+    color:white;
+    padding: 8px;
+    margin-left:80%;
+    border:none; 
+    cursor: pointer;
+    border-radius: 5px;
+   
+}
+input[type="submit"]:hover{
+    background-color: rgba(5, 111, 231, 0.788);
+
+}
+p{
+    font-size: small;
+}
+footer{
+    background-color: #eb5600a4;
+    position:static;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+}
+section {
+    display: flex;
+    gap: 8px;
+}
+
+
+section label{
+    padding:10px;
+    margin-left:20px;
+    width:250px;
+}
+
